@@ -1,0 +1,31 @@
+.navbar {
+  height: 10vh;
+  background: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10rem;
+}
+
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  margin-right: 2rem;
+  padding: 6px 16px;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background: rgb(195, 236, 252);
+}
